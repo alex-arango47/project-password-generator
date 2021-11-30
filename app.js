@@ -19,7 +19,7 @@ function ciclo(){
     }
 
     if (texto.length == 55){
-        console.log("El largo del password es de " + texto.length + " chars: " + texto);
+        /*console.log("El largo del password es de " + texto.length + " chars: " + texto);*/
     }
 }
 
