@@ -52,7 +52,7 @@ function password(length){
     aux.select();
     document.execCommand("copy");
     document.body.removeChild(aux);
-    document.getElementById("mensaje").innerHTML = "Clave copiada al portapapeles!";
+    document.getElementById("mensaje").innerHTML = "Passblock copied to clipboard!";
 
     
 }
