@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2F2F2F;
+    height: 100%;
+    width: 100%;
+}
+
+.section-main {
+    padding-top: 80px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-input {
+    border: 2px solid #F6F930;
+    border-radius: 50px;
+    color: #D2F898;
+    background: rgba(255, 255, 255, 0.1);
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    padding: 0px 20px;
+    height: 15%;
+    width: 45%;
+    outline: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+.hone {
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 0px 3px #494b3a9f;
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: 700;
+    padding: 25px;
+    margin-bottom: 25px;
+    color: #D2F898;
+    font-size: 30px;
+}
+
+.main-btn {
+    border: 2px solid #D2F898;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    margin-top: 50px;
+    padding: 10px;
+    height: 22,5px;
+    min-width: 356px;
+    background-color:  #949775;
+    outline: none;
+    box-shadow: 0 3px  #23241b;
+}
+
+.main-btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px #73755a;
+
+}
+
+.main-btn:hover {
+    background-color:#73755a;
+}
+
+.main-btn .btn-text {
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: max(1.3vw, 10px);
+    color: #2F2F2F;
+}
+
+.alerta .mensaje {
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: max(1.3vw, 10px);
+    color: rgba(255, 255, 255, 0.3);
+    font-style: italic;
+    margin-top: 18px;
+}
+
