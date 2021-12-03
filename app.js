@@ -9,6 +9,8 @@ var texto = "";
 
 function run(){
     texto = "";
+    setTimeout(function () {mensaje.style.display='none'}, 1000);
+    mensaje.style.display = "initial";
     ciclo();
 }
 
@@ -54,7 +56,6 @@ function password(length){
     document.body.removeChild(aux);
     document.getElementById("mensaje").innerHTML = "Passblock copied to clipboard!";
 
-    
 }
 
 

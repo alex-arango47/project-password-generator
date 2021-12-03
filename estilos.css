@@ -64,6 +64,7 @@ body {
 .main-btn:active {
     transform: translateY(4px);
     box-shadow: 0 1px #73755a;
+    border: 2px solid #949775;
 
 }
 
@@ -79,6 +80,13 @@ body {
     color: #2F2F2F;
 }
 
+.alerta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .alerta .mensaje {
     font-family: 'M PLUS 2', sans-serif;
     font-weight: 100;
@@ -88,4 +96,3 @@ body {
     font-style: italic;
     margin-top: 18px;
 }
-
